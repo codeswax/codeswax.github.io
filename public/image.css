@@ -1,0 +1,63 @@
+/*profile wallpaper style*/
+.profileStuff {
+    margin: 0;
+    height: 28vw;
+    background-image: url("../images/wpp.jpg");
+    background-attachment: fixed;
+    background-position: bottom right;
+}
+
+/*profile pic style*/
+.profilePic {
+    border-radius: 50%;
+    width: 18vw;
+    display: block;
+    box-shadow: 0.1vw 0.1vw 1vw #393939;
+    margin: -10% auto 1% auto;
+}
+
+/*project images*/
+.project {
+    border-radius: 50%;
+    width: 14vw;
+    display: block;
+}
+
+.user {
+    border-radius: 50%;
+    width: 15vw;
+    height: auto;
+    display: block;
+}
+
+/*cp stuff*/
+.bee {
+    width: 5vw;
+    display: block;
+    margin: 2% auto 0.5% auto; 
+}
+
+.code {
+    width: 5vw;
+    display: block;
+    margin: 0 auto 4% auto; 
+}
+
+.pen {
+    width: 5vw;
+    display: block;
+    margin: 0 auto 4% auto; 
+}
+
+.media {
+    width: 5vw;
+    display: block;
+    margin: 0 auto 4% auto; 
+}
+
+/*media query*/
+@media (max-width: 480px) {
+    .profilePic {
+        width: 23vw;
+    }
+}

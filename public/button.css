@@ -1,0 +1,23 @@
+/*send form button*/
+.sendButton {
+    width: 55vw;
+    height: 4vw;
+    background-color: #ff9ff9;
+    color: #730fc3;
+    font-weight: 550;
+    font-size: 1.5vw;
+    border: none;
+    border-radius: 9999px;
+}
+
+.sendButton:hover {
+    box-shadow: 0.5vw 0.5vw 1vw #d466cd;
+}
+
+@media (max-width: 480px) {
+    .sendButton {
+        width: 15vw;
+        height: 5vw;
+        font-size: 3vw;
+    }
+}

@@ -1,0 +1,37 @@
+/*introduction box*/
+.boxIntro {
+    width: 60%;
+    height: 30%;
+    padding: 3% 3% 2% 3%;
+    background-color: #ff9ff9;
+    box-shadow: 0.2vw 0.2vw 2.5vw #d466cd;
+    margin: 3% auto 3% auto;
+}
+
+/*projects box*/
+.boxProj {
+    width: 60%;
+    height: 35%;
+    padding: 1%;
+    background-color: #ff9ff9;
+    box-shadow: 0.2vw 0.2vw 2.5vw #d466cd;
+    margin: 3% auto 3% auto;
+    border-radius: 9999px;
+}
+
+/*recommendation box*/
+.boxRec {
+    width: 60%;
+    height: 35%;
+    background-color: #ff9ff9;
+    margin: 1% auto 1% auto;
+    border-radius: 9999px;
+}
+
+/*map box*/
+.boxMap {
+    width: 60%;
+    height: 30%;
+    margin: 1% auto 1% auto;
+    border-radius: 50%;
+}
